@@ -35,7 +35,7 @@ export class News extends Component {
     };
     document.title = ` ${this.capitalizeFirstLetter(
       this.props.category
-    )} -NewsMonkey`;
+    )} -NewsMonk`;
   }
 
   async newsUpdate() {
@@ -82,7 +82,7 @@ export class News extends Component {
       
       <div className="container my-3 ">
         <h1 className="text-center my-3">
-          NewsMonkey-{this.capitalizeFirstLetter(this.props.category)} Top
+          NewsMonk-{this.capitalizeFirstLetter(this.props.category)} Top
           Hedlines
         </h1>
        { this.state.loading && <Spiner />}
